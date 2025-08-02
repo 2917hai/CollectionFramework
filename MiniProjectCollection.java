@@ -35,12 +35,10 @@ public class MiniProjectCollection {
         Students st = new Students();
 
         ArrayList<ArrayList<String>> al = new ArrayList<>();
-
         int choice;
         do {
             ArrayList<String> al1 = st.add();
             al.add(al1);
-
             System.out.println("Enter your choice: 1 to Continue | 0 to Stop");
             choice = sc.nextInt();
             sc.nextLine(); 
